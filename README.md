@@ -81,3 +81,6 @@ _________________40888806n7___________77773d88888897__________________
 __________________u0888880d64o534466qd0008888888dn____________________
 ____________________73q08888880008888888880b4u77______________________
 ________________________7n3564ddd88880dd57____________________________
+
+MIT loisenz is...
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
