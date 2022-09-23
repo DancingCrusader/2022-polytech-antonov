@@ -1,0 +1,3 @@
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/03_cpp/intro/build/CMakeFiles/username.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/03_cpp/intro/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/03_cpp/intro/build/CMakeFiles/ZERO_CHECK.dir
