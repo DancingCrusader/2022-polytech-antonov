@@ -1,0 +1,10 @@
+^C:\USERS\АНДРЕЙ\DOCUMENTS\GITHUB\2022-POLYTECH-ANTONOV\02_COMPILER\BUILD\CMAKEFILES\F1E82F968DFA593C6C6A136469B71863\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/02_compiler -BC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/02_compiler/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/02_compiler/build/ProjectName.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
