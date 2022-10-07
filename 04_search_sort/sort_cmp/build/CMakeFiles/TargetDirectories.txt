@@ -1,0 +1,3 @@
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/04_search_sort/sort_cmp/build/CMakeFiles/sort_cmp.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/04_search_sort/sort_cmp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/04_search_sort/sort_cmp/build/CMakeFiles/ZERO_CHECK.dir
