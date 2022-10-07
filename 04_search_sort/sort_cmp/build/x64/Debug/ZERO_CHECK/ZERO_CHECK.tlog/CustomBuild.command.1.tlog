@@ -1,0 +1,10 @@
+^C:\USERS\АНДРЕЙ\DOCUMENTS\GITHUB\2022-POLYTECH-ANTONOV\04_SEARCH_SORT\SORT_CMP\BUILD\CMAKEFILES\FD949E414779AB6ABCD12A5435EDAC87\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/04_search_sort/sort_cmp -BC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/04_search_sort/sort_cmp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/04_search_sort/sort_cmp/build/Sort_cmp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
