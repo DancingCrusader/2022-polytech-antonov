@@ -1,0 +1,3 @@
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/palindrome/CM/CMakeFiles/Palindrome.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/palindrome/CM/CMakeFiles/ALL_BUILD.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/palindrome/CM/CMakeFiles/ZERO_CHECK.dir
