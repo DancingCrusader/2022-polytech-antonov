@@ -1,0 +1,3 @@
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/intro/CM/CMakeFiles/Intro.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/intro/CM/CMakeFiles/ALL_BUILD.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/intro/CM/CMakeFiles/ZERO_CHECK.dir

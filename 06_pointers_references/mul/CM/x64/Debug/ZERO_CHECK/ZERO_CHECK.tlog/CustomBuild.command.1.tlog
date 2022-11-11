@@ -1,0 +1,10 @@
+^C:\USERS\АНДРЕЙ\DOCUMENTS\GITHUB\2022-POLYTECH-ANTONOV\06_POINTERS_REFERENCES\MUL\CM\CMAKEFILES\F5FC0E8228D7CED888E8FB70D505359F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/mul -BC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/mul/CM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/06_pointers_references/mul/CM/Mul.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

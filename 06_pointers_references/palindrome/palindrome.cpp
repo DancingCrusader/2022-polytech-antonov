@@ -1,8 +1,27 @@
 #include <cassert>
 #include <iostream>
-#include <string>
+
 
 using namespace std;
+
+
+unsigned int length(const char* str)
+{
+    if (str == nullptr)
+    {
+        return 0;
+    }
+    else
+    {
+        int size = 0;
+        while (*str++)
+        {
+            size++;
+        }
+        return size;
+    }
+}
+
 
 bool test(const char* str)
 {
@@ -12,13 +31,25 @@ bool test(const char* str)
     }
     else
     {
-        if ((strlen(str) / 2 == 1) && (strlen(str) % 2 == 0))
+        if (length(str) % 2 == 0)
         {
-            return false;
+            int a = length(str);
+            for (int i = 0; i < (a / 2); i++)
+            {
+                if (str[a / 2 - 1 - i] == str[a / 2 + i])
+                {
+                    continue;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return true;
         }
         else
         {
-            int a = strlen(str);
+            int a = length(str);
             for (int i = 0; i < (a / 2); i++)
             {
                 if (str[a / 2 - i] == str[a / 2 + i])
@@ -38,13 +69,12 @@ bool test(const char* str)
 
 int main()
 {
-    assert(test("gib") == false);
-    assert(test("robust") == false);
-    assert(test("sas") == true);
-    assert(test("veeyeev") == true);
-    assert(test("versionoisrev") == true);
-    assert(test("qwertyuiooiuytrewq") == true);
-    assert(test("-+-=-+-") == true);
+    assert(test("a") == true);
+    assert(test("aba") == false);
+    assert(test("") == true);
+    assert(test("aboba") == true);
+    assert(test("abobaboba") == true);
+    assert(test("1234567890987654321") == true);
     assert(test(nullptr) == false);
     return 0;
 }
