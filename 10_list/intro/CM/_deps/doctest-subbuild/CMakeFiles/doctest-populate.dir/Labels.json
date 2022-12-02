@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/doctest-populate"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/3245b623b56d5b27c786c1eae815f8e3/doctest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/926a9cba00067bdf16d289ffdcb04c52/doctest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/7bd5252ded2ce2595ea49b1e21520b67/doctest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/7bd5252ded2ce2595ea49b1e21520b67/doctest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/7bd5252ded2ce2595ea49b1e21520b67/doctest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/7bd5252ded2ce2595ea49b1e21520b67/doctest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/7bd5252ded2ce2595ea49b1e21520b67/doctest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/7bd5252ded2ce2595ea49b1e21520b67/doctest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/7bd5252ded2ce2595ea49b1e21520b67/doctest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/7bd5252ded2ce2595ea49b1e21520b67/doctest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"doctest-populate"
+		],
+		"name" : "doctest-populate"
+	}
+}

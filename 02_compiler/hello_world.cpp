@@ -3,6 +3,6 @@
 
 int main()
 {
-  print();
-  return 0;
+    print();
+    return 0;
 }

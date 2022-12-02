@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\10_list\reverse\CM\_deps\doctest-subbuild\CMakeFiles\e8492fa298d54ad3d84cc0c893b9f65d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2501B004-C055-3E33-8F48-850D537F886D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

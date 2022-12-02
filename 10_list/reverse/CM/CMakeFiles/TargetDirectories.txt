@@ -1,0 +1,4 @@
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/reverse/CM/CMakeFiles/Reverse.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/reverse/CM/CMakeFiles/RUN_TESTS.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/reverse/CM/CMakeFiles/ALL_BUILD.dir
+C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/reverse/CM/CMakeFiles/ZERO_CHECK.dir

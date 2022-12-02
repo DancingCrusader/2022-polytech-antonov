@@ -1,0 +1,10 @@
+^C:\USERS\АНДРЕЙ\DOCUMENTS\GITHUB\2022-POLYTECH-ANTONOV\10_LIST\REVERSE\CM\_DEPS\DOCTEST-SUBBUILD\CMAKEFILES\E8492FA298D54AD3D84CC0C893B9F65D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/reverse/CM/_deps/doctest-subbuild -BC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/reverse/CM/_deps/doctest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/reverse/CM/_deps/doctest-subbuild/doctest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
