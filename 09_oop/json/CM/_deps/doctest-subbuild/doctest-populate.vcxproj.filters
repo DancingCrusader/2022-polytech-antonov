@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\db0a6272654488394cdb43dea6d5090f\doctest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\37080f40e43aa18f488d3b068b82640b\doctest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\doctest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{86534C01-DCF0-3126-AD24-38A291442F7F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\test_json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D44DABD2-F1E9-3A60-866E-6959225F6CF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

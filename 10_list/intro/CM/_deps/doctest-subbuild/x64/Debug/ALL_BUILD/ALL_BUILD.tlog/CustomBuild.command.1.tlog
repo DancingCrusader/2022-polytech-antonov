@@ -1,0 +1,10 @@
+^C:\USERS\АНДРЕЙ\DOCUMENTS\GITHUB\2022-POLYTECH-ANTONOV\10_LIST\INTRO\CM\_DEPS\DOCTEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild -BC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild --check-stamp-file C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/10_list/intro/CM/_deps/doctest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

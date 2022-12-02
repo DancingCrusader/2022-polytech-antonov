@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C72F6971-41EF-3CB0-A733-66D238F57D97}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>doctest-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/Debug/doctest-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/Debug/doctest-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\doctest-populate-gitinfo.txt;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/Debug/doctest-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/Debug/doctest-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\tmp\doctest-populate-cfgcmd.txt;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/Debug/doctest-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/Debug/doctest-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\7496379d269db552a31daaf03bc45c6f\doctest-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/Debug/doctest-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\db0a6272654488394cdb43dea6d5090f\doctest-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'doctest-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/CMakeFiles/Debug/doctest-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/Debug/doctest-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-install;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-mkdir;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-download;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-update;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-patch;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-configure;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-build;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\src\doctest-populate-stamp\Debug\doctest-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\Debug\doctest-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\37080f40e43aa18f488d3b068b82640b\doctest-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\Debug\doctest-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\doctest-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild -BC:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild --check-stamp-file C:/Users/Андрей/Documents/GitHub/2022-polytech-antonov/09_oop/json/CM/_deps/doctest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\doctest-populate-prefix\tmp\doctest-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\CMakeFiles\doctest-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Андрей\Documents\GitHub\2022-polytech-antonov\09_oop\json\CM\_deps\doctest-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{445F7BC4-A0B0-3FA7-97A6-ED62FA042A61}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
